@@ -3,6 +3,52 @@ Les grandes lignes de la certification pour la formation de développeur full st
 
 ![image](https://github.com/ohugonnot/certification-developpeur/assets/13014954/c1b4f3ce-6748-483b-909d-13e494025ae0)
 
+## Résumé
+### Maquettage et Conception :
+- Comprendre et respecter les spécificités fonctionnelles et scénarios utilisateur.
+- Formaliser l'enchaînement des écrans avec des schémas.
+- Valider les maquettes avec l'utilisateur et respecter la charte graphique.
+- Assurer une expérience utilisateur optimale et sécurisée.
+- Connaître les principes de sécurisation et de protection des données.
+
+### Front-End (Interface Utilisateur) :
+- Concevoir des interfaces web statiques et adaptables.
+- Respecter la charte graphique et les règles d'accessibilité.
+- Optimiser pour le web mobile et les moteurs de recherche.
+- Utiliser des frameworks tels que React, Angular, VueJs.
+- Publier les pages web sur un serveur.
+
+### Back-End (Traitement côté serveur) :
+- Développer des composants serveur sécurisés et défensifs.
+- Gérer l'authentification, les permissions et la sécurité.
+- Intégrer des bases de données et manipuler les données.
+- Utiliser des langages comme SQL et des outils de gestion de base de données.
+- Effectuer des tests unitaires et de sécurité.
+- Assurer la publication et la sécurité de l'application sur un serveur.
+
+### Gestion de contenu et e-commerce :
+- Installer et maintenir des CMS ou plateformes e-commerce.
+- Construire la structure du site, gérer les droits et les rôles.
+- Utiliser des gabarits de mise en page et créer des gabarits spécifiques.
+- Assurer le référencement naturel et la visibilité sur les moteurs de recherche.
+
+
+### Base de données :
+- Concevoir, créer et gérer des bases de données conformes au schéma.
+- Écrire des scripts de création et d'insertion de données.
+- Assurer la sécurité et la restauration des bases de données.
+- Gérer les accès et les contraintes, effectuer des tests unitaires.
+- Utiliser des outils de sauvegarde et restauration.
+
+### Compétences générales :
+- Comprendre et écrire des algorithmes.
+- Travailler avec des langages de programmation orientés objet.
+- Collaborer avec des équipes, participer à des réunions et partager les résultats.
+- Effectuer une veille sur les vulnérabilités et les bonnes pratiques.
+- Utiliser des outils de gestion de versions, de partage de fichiers et d'environnement de développement
+
+------------------------------------------------------------- 
+
 ## Maquetter une application
 ### Critères de performance
 - La maquette prend en compte les spécificités fonctionnelles décrites dans les cas d'utilisation ou les scénarios utilisateur
