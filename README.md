@@ -10,6 +10,7 @@
 - Les régles RGPD du développeur : https://www.cnil.fr/fr/guide-rgpd-du-developpeur
 - Guide de test de sécurités : https://owasp.org/www-project-web-security-testing-guide/stable/
 - Guide de l'accessibilité du contenu WCAG : https://www.w3.org/WAI/standards-guidelines/wcag/fr
+- Outils de veille technologique : https://app.daily.dev/ et https://feedly.com/
   
 ## Résumé
 ### Maquettage et Conception :
