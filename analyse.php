@@ -1,3 +1,5 @@
+<?php
+
 // Texte à analyser
 $texte = "Votre texte à analyser.";
 
