@@ -8,7 +8,7 @@
 - Le guide des bonnes pratiques javascript : https://github.com/airbnb/javascript
 - Le guides des bonnes pratiques PHP - les PSR : https://www.php-fig.org/psr/
 - Les régles RGPD du développeur : https://www.cnil.fr/fr/guide-rgpd-du-developpeur
-- Guide de test de sécurité de vos applications : https://owasp.org/www-project-web-security-testing-guide/stable/
+- Guide de test de sécurités : https://owasp.org/www-project-web-security-testing-guide/stable/
 - Guide de l'accessibilité du contenu WCAG : https://www.w3.org/WAI/standards-guidelines/wcag/fr
   
 ## Résumé
