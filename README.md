@@ -13,53 +13,53 @@
   
 ## Résumé
 ### Maquettage et Conception :
-- [x] Comprendre et respecter les spécificités fonctionnelles et scénarios utilisateur.
-- [ ] Formaliser l'enchaînement des écrans avec des schémas.
-- [ ] Valider les maquettes avec l'utilisateur et respecter la charte graphique.
-- [ ] Assurer une expérience utilisateur optimale et sécurisée.
-- [ ] Connaître les principes de sécurisation et de protection des données.
+- Comprendre et respecter les spécificités fonctionnelles et scénarios utilisateur.
+- Formaliser l'enchaînement des écrans avec des schémas.
+- Valider les maquettes avec l'utilisateur et respecter la charte graphique.
+- Assurer une expérience utilisateur optimale et sécurisée.
+- Connaître les principes de sécurisation et de protection des données.
 
 ### Front-End (Interface Utilisateur) :
-- [ ] Concevoir des interfaces web statiques et adaptables.
-- [ ] Respecter la charte graphique et les règles d'accessibilité.
-- [ ] Optimiser pour le web mobile et les moteurs de recherche.
-- [ ] Utiliser des frameworks tels que React, Angular, VueJs.
-- [ ] Publier les pages web sur un serveur.
+- Concevoir des interfaces web statiques et adaptables.
+- Respecter la charte graphique et les règles d'accessibilité.
+- Optimiser pour le web mobile et les moteurs de recherche.
+- Utiliser des frameworks tels que React, Angular, VueJs.
+- Publier les pages web sur un serveur.
 
 ### Back-End (Traitement côté serveur) :
-- [ ] Développer des composants serveur sécurisés et défensifs.
-- [ ] Gérer l'authentification, les permissions et la sécurité.
-- [ ] Intégrer des bases de données et manipuler les données.
-- [ ] Utiliser des langages comme SQL et des outils de gestion de base de données.
-- [ ] Effectuer des tests unitaires et de sécurité.
-- [ ] Assurer la publication et la sécurité de l'application sur un serveur.
+- Développer des composants serveur sécurisés et défensifs.
+- Gérer l'authentification, les permissions et la sécurité.
+- Intégrer des bases de données et manipuler les données.
+- Utiliser des langages comme SQL et des outils de gestion de base de données.
+- Effectuer des tests unitaires et de sécurité.
+- Assurer la publication et la sécurité de l'application sur un serveur.
 
 ### Gestion de contenu et e-commerce :
-- [ ] Installer et maintenir des CMS ou plateformes e-commerce.
-- [ ] Construire la structure du site, gérer les droits et les rôles.
-- [ ] Utiliser des gabarits de mise en page et créer des gabarits spécifiques.
-- [ ] Assurer le référencement naturel et la visibilité sur les moteurs de recherche.
+- Installer et maintenir des CMS ou plateformes e-commerce.
+- Construire la structure du site, gérer les droits et les rôles.
+- Utiliser des gabarits de mise en page et créer des gabarits spécifiques.
+- Assurer le référencement naturel et la visibilité sur les moteurs de recherche.
 
 
 ### Base de données :
-- [ ] Concevoir, créer et gérer des bases de données conformes au schéma.
-- [ ] Écrire des scripts de création et d'insertion de données.
-- [ ] Assurer la sécurité et la restauration des bases de données.
-- [ ] Gérer les accès et les contraintes, effectuer des tests unitaires.
-- [ ] Utiliser des outils de sauvegarde et restauration.
+- Concevoir, créer et gérer des bases de données conformes au schéma.
+- Écrire des scripts de création et d'insertion de données.
+- Assurer la sécurité et la restauration des bases de données.
+- Gérer les accès et les contraintes, effectuer des tests unitaires.
+- Utiliser des outils de sauvegarde et restauration.
 
 ### Compétences générales :
-- [ ] Comprendre et écrire des algorithmes.
-- [ ] Travailler avec des langages de programmation orientés objet.
-- [ ] Collaborer avec des équipes, participer à des réunions et partager les résultats.
-- [ ] Effectuer une veille sur les vulnérabilités et les bonnes pratiques.
-- [ ] Utiliser des outils de gestion de versions, de partage de fichiers et d'environnement de développement
+- Comprendre et écrire des algorithmes.
+- Travailler avec des langages de programmation orientés objet.
+- Collaborer avec des équipes, participer à des réunions et partager les résultats.
+- Effectuer une veille sur les vulnérabilités et les bonnes pratiques.
+- Utiliser des outils de gestion de versions, de partage de fichiers et d'environnement de développement
 
 -------------------------------------------------------------
 
 ## Maquetter une application
 ### Critères de performance
-- [ ] La maquette prend en compte les spécificités fonctionnelles décrites dans les cas d'utilisation ou les scénarios utilisateur
+- [x] La maquette prend en compte les spécificités fonctionnelles décrites dans les cas d'utilisation ou les scénarios utilisateur
 - [ ] L'enchaînement des écrans est formalisé par un schéma
 - [ ] La maquette et l'enchaînement des écrans sont validés par l’utilisateur
 - [ ] La maquette respecte la charte graphique de l’entreprise
