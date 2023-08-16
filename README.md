@@ -10,9 +10,49 @@
 - Les régles RGPD du développeur : https://www.cnil.fr/fr/guide-rgpd-du-developpeur
 - Guide de test de sécurités : https://owasp.org/www-project-web-security-testing-guide/stable/
 - Guide de l'accessibilité du contenu WCAG : https://www.w3.org/WAI/standards-guidelines/wcag/fr
-- Outils de veille technologique : https://app.daily.dev/ et https://feedly.com/
-  
-## Résumé
+
+## Exercies
+- [Codecademy](https://www.codecademy.com/) - Online interactive platform that offers free coding classes in 12 different programming languages.
+- [FreeCodeCamp](https://www.freecodecamp.org) - Learning platform in english wich provide many exercises, projects and certifications.
+- [W3S](https://www.w3schools.com/) - QCM - Exercices - Tutorial sur PHP, CSS, HTML, SQL, ect...
+
+## Tutorials
+- [Grafikart](https://www.grafikart.fr/) - Frontend and backend tutorials in french.
+- [Scoth.io](https://scotch.io/) - Frontend and backend tutorials in english.
+- [Tutorialzine](https://tutorialzine.com/) - Frontend and backend tutorials in english.
+
+## News
+- [Hacker News](https://news.ycombinator.com/) - A social news website focusing on computer science and entrepreneurship.
+- [Numerama](https://www.numerama.com/) - A French language news website that focuses on economic, legal, social, and technological issues.
+- [Codrops](https://tympanus.net/codrops/) - A website that give some frontend usefull components
+- Outils de veille technologique : https://app.daily.dev/ et https://feedly.com/ 
+- [Alan Drabczynski](http://alan-drabczynski.fr/) - Alan is an artistic director, he write and give advice about graphic and web design.
+- [Webdesign trends](http://www.webdesignertrends.com/) - A website that publish article based on UI and UX
+
+## Useful extensions
+### VSCode
+- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Beautify javascript, JSON, CSS, Sass, and HTML.
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Spot missing brackets!
+- [Indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) & [Indenticator](https://marketplace.visualstudio.com/items?itemName=SirTori.indenticator) - Show indentation mistakes. 
+- [File tree view](https://marketplace.visualstudio.com/items?itemName=DaGhostman.vs-treeview) - See your functions architecture.
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Help you with git
+- [Camel Case Navigation](https://marketplace.visualstudio.com/items?itemName=maptz.camelcasenavigation) - Provides camel-case navigation
+- [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense) - Advanced PHP IntelliSense.
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager) - Easily switch between projects.
+- [French Language Pack](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-fr) - Provides localized UI experience.
+- [file-icons](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons) - File-specific icons.
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - Manage [.editorconfig](https://editorconfig.org/) and share the same configuration with your colleagues
+- [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) - Debug adapter working with [Xdebug](https://xdebug.org/) to have a live execution of your code.
+
+### PhpStorm
+- [bashSupport](https://plugins.jetbrains.com/plugin/4230-bashsupport) - Bash supports run configurations, syntax highlighting, rename refactoring, documentation lookup, inspections, quickfixes and much more.
+- [CodeGlance](https://plugins.jetbrains.com/plugin/7275-codeglance) - Embeds a code minimap similar to the one found in Sublime into the editor pane. Works with both light and dark themes using your customized colors for syntax highlighting.
+- [EditorConfig](https://plugins.jetbrains.com/plugin/7294-editorconfig) - A JetBrains IDE plugin supporting the EditorConfig standard and EditorConfig language.
+- [PHP Anotations](https://plugins.jetbrains.com/plugin/7320-php-annotations) - Useful to understand annoations like in symfony for routes.
+- [composer.json support](https://plugins.jetbrains.com/plugin/7631-php-composer-json-support) - Useful to manager version in your composer files and provide an autocompletion in your package name.
+- [Symfony Plugin](https://plugins.jetbrains.com/plugin/7219-symfony-plugin) - Provide autocompletion for routes, symfony methods, services of yml file, config in yml files, parameters, and more!
+
+## Résumé de la formation
 ### Maquettage et Conception :
 - Comprendre et respecter les spécificités fonctionnelles et scénarios utilisateur.
 - Formaliser l'enchaînement des écrans avec des schémas.
