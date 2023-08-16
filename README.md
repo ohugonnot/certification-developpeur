@@ -100,14 +100,14 @@
 
 ## Maquetter une application
 ### Critères de performance
-- [x] La maquette prend en compte les spécificités fonctionnelles décrites dans les cas d'utilisation ou les scénarios utilisateur
-- [ ] L'enchaînement des écrans est formalisé par un schéma
-- [ ] La maquette et l'enchaînement des écrans sont validés par l’utilisateur
-- [ ] La maquette respecte la charte graphique de l’entreprise
-- [ ] La maquette est conforme à l'expérience utilisateur et à l’équipement ciblé
-- [ ] La maquette respecte les principes de sécurisation d’une interface utilisateur
-- [ ] La maquette prend en compte les exigences de sécurité spécifiques de l’application
-- [ ] Le contenu de la maquette est rédigé, en français ou en anglais, de façon adaptée à l’interlocuteur et sans faute
+- La maquette prend en compte les spécificités fonctionnelles décrites dans les cas d'utilisation ou les scénarios utilisateur
+- L'enchaînement des écrans est formalisé par un schéma
+- La maquette et l'enchaînement des écrans sont validés par l’utilisateur
+- La maquette respecte la charte graphique de l’entreprise
+- La maquette est conforme à l'expérience utilisateur et à l’équipement ciblé
+- La maquette respecte les principes de sécurisation d’une interface utilisateur
+- La maquette prend en compte les exigences de sécurité spécifiques de l’application
+- Le contenu de la maquette est rédigé, en français ou en anglais, de façon adaptée à l’interlocuteur et sans faute
 
 ### Savoir-faire techniques, organisationnels, relationnels
 - [ ] Utiliser un outil de maquettage
@@ -127,18 +127,18 @@
 
 ## Réaliser une interface utilisateur web statique et adaptable
 ### Critères de performance
-- [ ] L'interface est conforme à la maquette de l'application
-- [ ] Les pages web respectent la charte graphique de l'entreprise
-- [ ] Les bonnes pratiques de structuration et de sécurité sont respectées y compris pour le web mobile
-- [ ] Les pages web sont accessibles depuis les navigateurs ciblés y compris depuis un mobile
-- [ ] Les pages web s’adaptent à la taille de l’écran
-- [ ] Les pages web sont optimisées pour le web mobile
-- [ ] Le site respecte les règles de référencement naturel
-- [ ] Les pages web sont publiées sur un serveur
-- [ ] L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
-- [ ] La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
-- [ ] La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
-- [ ] Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
+- L'interface est conforme à la maquette de l'application
+- Les pages web respectent la charte graphique de l'entreprise
+- Les bonnes pratiques de structuration et de sécurité sont respectées y compris pour le web mobile
+- Les pages web sont accessibles depuis les navigateurs ciblés y compris depuis un mobile
+- Les pages web s’adaptent à la taille de l’écran
+- Les pages web sont optimisées pour le web mobile
+- Le site respecte les règles de référencement naturel
+- Les pages web sont publiées sur un serveur
+- L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
+- La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
+- La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
+- Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
 
 ### Savoir-faire techniques, organisationnels relationnels
 - [ ] Structurer les pages selon les recommandations du __W3C__ pour le web et le web mobile
@@ -163,19 +163,19 @@
 
 ## Développer une interface utilisateur web dynamique
 ### Critères de performance
-- [ ] Les pages web respectent la charte graphique de l'entreprise
-- [ ] Les pages web sont conformes à l’expérience utilisateur y compris pour l’expérience mobile.
-- [ ] L'architecture de l'application répond aux bonnes pratiques de développement et de sécurisation d'application web
-- [ ] L’application web est optimisée pour les équipements mobiles
-- [ ] Le code source est documenté ou auto-documenté
-- [ ] L'application web est publiée sur un serveur
-- [ ] Les tests garantissent que les pages web répondent aux exigences décrites dans le cahier des charges
-- [ ] Les tests de sécurité suivent un plan reconnu par la profession
-- [ ] L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
-- [ ] La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
-- [ ] La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
-- [ ] La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
-- [ ] Le partage du résultat de veille est effectué oralement ou par écrit avec ses pairs
+- Les pages web respectent la charte graphique de l'entreprise
+- Les pages web sont conformes à l’expérience utilisateur y compris pour l’expérience mobile.
+- L'architecture de l'application répond aux bonnes pratiques de développement et de sécurisation d'application web
+- L’application web est optimisée pour les équipements mobiles
+- Le code source est documenté ou auto-documenté
+- L'application web est publiée sur un serveur
+- Les tests garantissent que les pages web répondent aux exigences décrites dans le cahier des charges
+- Les tests de sécurité suivent un plan reconnu par la profession
+- L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
+- La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
+- La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
+- La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
+- Le partage du résultat de veille est effectué oralement ou par écrit avec ses pairs
 
 ### Savoir-faire techniques, organisationnels, relationnels
 - [ ] Écrire un algorithme
@@ -204,18 +204,18 @@
 
 ## Elaborer et mettre en œuvre des composants dans une application de gestion de contenu ou e-commerce
 ### Critères de performance
-- [ ] Les bonnes pratiques de développement objet sont respectées
-- [ ] Les composants complémentaires ou réalisés s’intègrent dans l’environnement de l’application
-- [ ] Les composants serveur contribuent à la sécurité de l’application
-- [ ] Le code source des composants est documenté ou auto-documenté
-- [ ] Les tests garantissent que les traitements serveurs répondent aux fonctionnalités décrites dans le cahier des charges
-- [ ] Les tests de sécurité suivent un plan reconnu par la profession
-- [ ] L'application web est publiée sur un serveur
-- [ ] L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
--La documentation technique liée aux technologies associées, y compris en anglais, est comprise 
-- [ ] La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
-- [ ] La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
-- [ ] Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
+- Les bonnes pratiques de développement objet sont respectées
+- Les composants complémentaires ou réalisés s’intègrent dans l’environnement de l’application
+- Les composants serveur contribuent à la sécurité de l’application
+- Le code source des composants est documenté ou auto-documenté
+- Les tests garantissent que les traitements serveurs répondent aux fonctionnalités décrites dans le cahier des charges
+- Les tests de sécurité suivent un plan reconnu par la profession
+- L'application web est publiée sur un serveur
+- L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
+- La documentation technique liée aux technologies associées, y compris en anglais, est comprise 
+- La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
+- La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
+- Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
 
 ### Savoir-faire techniques, organisationnels, relationnels
 - [ ] Installer une solution de type CMS ou e-commerce (__Wordpress__, __Prestashop__, __Magento__, __OpenCart__)
@@ -241,17 +241,17 @@
 
 ## Créer une base de données
 ### Critères de performance
-- [ ] La base de données est conforme au schéma physique
-- [ ] Le script de création de bases de données s’exécute sans erreurs
-- [ ] Le script d’insertion des données de test s’exécute sans erreurs
-- [ ] La base de données est disponible avec __les droits d'accès__ prévus
-- [ ] La base de données de test peut être __restaurée en cas d'incident__
-- [ ] Les besoins de sécurité du SGBD sont exprimés selon l’état de l’art et les exigences de sécurité identifiées
-- [ ] L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
-- [ ] La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
-- [ ] La démarche de recherche permet de trouver une solution à un problème technique
-- [ ] La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
-- [ ] Le partage du résultat de veille est effectué oralement ou par écrit avec ses pairs
+- La base de données est conforme au schéma physique
+- Le script de création de bases de données s’exécute sans erreurs
+- Le script d’insertion des données de test s’exécute sans erreurs
+- La base de données est disponible avec __les droits d'accès__ prévus
+- La base de données de test peut être __restaurée en cas d'incident__
+- Les besoins de sécurité du SGBD sont exprimés selon l’état de l’art et les exigences de sécurité identifiées
+- L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
+- La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
+- La démarche de recherche permet de trouver une solution à un problème technique
+- La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
+- Le partage du résultat de veille est effectué oralement ou par écrit avec ses pairs
   
 ### Savoir-faire techniques, organisationnels, relationnels
 - [ ] Recenser les informations du domaine étudié
@@ -280,16 +280,16 @@
 
 ## Développer les composants d’accès aux données 
 ### Critères de performance
-- [ ] Les traitements relatifs aux manipulations des données répondent aux fonctionnalités décrites dans le dossier de conception technique
-- [ ] Un __test unitaire est associé à chaque composant__, avec une double approche __fonctionnelle et sécurité__
-- [ ] Le code source des composants est documenté ou auto-documenté
-- [ ] Les composants d’accès à la base de données suivent les règles de sécurisation reconnues
-- [ ] La sécurité des composants d’accès se fonde sur les mécanismes de sécurité du SGBD
-- [ ] L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
-- [ ] La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
-- [ ] La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
-- [ ] __La veille__ sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
-- [ ] Le partage du résultat de veille est effectué oralement ou par écrit avec ses pairs
+- Les traitements relatifs aux manipulations des données répondent aux fonctionnalités décrites dans le dossier de conception technique
+- Un __test unitaire est associé à chaque composant__, avec une double approche __fonctionnelle et sécurité__
+- Le code source des composants est documenté ou auto-documenté
+- Les composants d’accès à la base de données suivent les règles de sécurisation reconnues
+- La sécurité des composants d’accès se fonde sur les mécanismes de sécurité du SGBD
+- L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
+- La documentation technique liée aux technologies associées, en français ou en anglais, est comprise
+- La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
+- __La veille__ sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
+- Le partage du résultat de veille est effectué oralement ou par écrit avec ses pairs
 
 ### Savoir-faire techniques, organisationnels, relationnels
 - [ ] S’assurer que les contributions et publications diffusées respectent les règles orthographiques et grammaticales
@@ -319,17 +319,17 @@
 
 ## Développer la partie back-end d’une application web ou web mobile
 ### Critères de performance
-- [ ] Les __bonnes pratiques__ de développement sont respectées
-- [ ] Les composants serveur contribuent à la sécurité de l’application
-- [ ] Le code source des composants est documenté ou auto-documenté
-- [ ] Les tests garantissent que les traitements serveurs répondent aux fonctionnalités décrites dans le dossier de conception technique
-- [ ] Les tests de sécurité suivent un plan reconnu par la profession 
-- [ ] L'application web est publiée sur un serveur
-- [ ] L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
-- [ ] La documentation technique liée aux technologies associées, y compris en anglais, est comprise
-- [ ] La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
-- [ ] La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
-- [ ] Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
+- Les __bonnes pratiques__ de développement sont respectées
+- Les composants serveur contribuent à la sécurité de l’application
+- Le code source des composants est documenté ou auto-documenté
+- Les tests garantissent que les traitements serveurs répondent aux fonctionnalités décrites dans le dossier de conception technique
+- Les tests de sécurité suivent un plan reconnu par la profession 
+- L'application web est publiée sur un serveur
+- L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
+- La documentation technique liée aux technologies associées, y compris en anglais, est comprise
+- La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
+- La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
+- Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
 
 ### Savoir-faire techniques, organisationnels, relationnels
 - [ ] Utiliser un environnement de développement intégré y compris en anglais
@@ -367,18 +367,18 @@
 
 ## Elaborer et mettre en œuvre des composants dans une application de gestion de contenu ou e-commerce
 ### Critères de performance
-- [ ] Les bonnes pratiques de développement objet sont respectées
-- [ ] Les composants complémentaires ou réalisés s’intègrent dans l’environnement de l’application
-- [ ] Les composants serveur contribuent à la sécurité de l’application
-- [ ] Le code source des composants est documenté ou auto-documenté
-- [ ] Les tests garantissent que les traitements serveurs répondent aux fonctionnalités décrites dans le cahier des charges
-- [ ] Les tests de sécurité suivent un plan reconnu par la profession
-- [ ] L'application web est publiée sur un serveur
-- [ ] L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
-- [ ] La documentation technique liée aux technologies associées, y compris en anglais, est comprise
-- [ ] La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
-- [ ] La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
-- [ ] Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
+- Les bonnes pratiques de développement objet sont respectées
+- Les composants complémentaires ou réalisés s’intègrent dans l’environnement de l’application
+- Les composants serveur contribuent à la sécurité de l’application
+- Le code source des composants est documenté ou auto-documenté
+- Les tests garantissent que les traitements serveurs répondent aux fonctionnalités décrites dans le cahier des charges
+- Les tests de sécurité suivent un plan reconnu par la profession
+- L'application web est publiée sur un serveur
+- L’objet de la recherche est exprimé de manière précise en langue française ou anglaise
+- La documentation technique liée aux technologies associées, y compris en anglais, est comprise
+- La démarche de recherche permet de résoudre un problème technique ou de mettre en œuvre une nouvelle fonctionnalité
+- La veille sur les vulnérabilités connues permet d’identifier et corriger des failles potentielles
+- Le partage du résultat de recherche et de veille est effectué, oralement ou par écrit, avec ses pairs
 
 ### Savoir-faire techniques, organisationnels, relationnels
 - [ ] Écrire un algorithme
