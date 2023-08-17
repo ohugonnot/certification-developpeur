@@ -10,6 +10,7 @@
 - Les régles RGPD du développeur : https://www.cnil.fr/fr/guide-rgpd-du-developpeur
 - Guide de test de sécurités : https://owasp.org/www-project-web-security-testing-guide/stable/
 - Guide de l'accessibilité du contenu WCAG : https://www.w3.org/WAI/standards-guidelines/wcag/fr
+- Notions sur la sémentique de version : https://semver.org/lang/fr/
 
 ## Exercies
 - [Codecademy](https://www.codecademy.com/) - Online interactive platform that offers free coding classes in 12 different programming languages.
