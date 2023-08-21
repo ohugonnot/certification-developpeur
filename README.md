@@ -111,7 +111,7 @@
 - Le contenu de la maquette est rédigé, en français ou en anglais, de façon adaptée à l’interlocuteur et sans faute
 
 ### Savoir-faire techniques, organisationnels, relationnels
-- [ ] Utiliser un outil de maquettage
+- [x] Utiliser un outil de maquettage
 - [ ] Construire la maquette de l'application optimisés, l’enchaînement et la composition des écrans
 - [ ] Planifier et suivre les tâches de maquettage
 - [ ] Participer à des réunions de travail avec les utilisateurs
