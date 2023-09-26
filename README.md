@@ -12,6 +12,13 @@
 - Guide de l'accessibilité du contenu WCAG : https://www.w3.org/WAI/standards-guidelines/wcag/fr
 - Notions sur la sémentique de version : https://semver.org/lang/fr/
 
+## Les questions en entretient et les tests techniques
+- [Symfony](https://waytolearnx.com/category/qcm-symfony) - Les questions souvent posées sur symfony
+- [Back-end](https://gist.github.com/jpchateau/f822e00f1c6318046125) - Les questions souvent posées en back-end
+- [Front-End](https://www.collectiveray.com/fr/entretien-de-d%C3%A9veloppeur-front-end-questions-et-r%C3%A9ponses?expand_article=1) - Les questions souvent posées en front-end
+- [SkillValue](https://skillvalue.com/fr/quiz/) - SkillValue s'entrainer à passer des tests techniques
+- [CodingGame](https://www.codingame.com/work/fr/nos-offres/evaluer/product-tour/) - CodingGame voir à quoi ressemble les tests vu par le recruteur
+
 ## Exercies
 - [Codecademy](https://www.codecademy.com/) - Online interactive platform that offers free coding classes in 12 different programming languages.
 - [FreeCodeCamp](https://www.freecodecamp.org) - Learning platform in english wich provide many exercises, projects and certifications.
@@ -21,7 +28,10 @@
 - [Grafikart](https://www.grafikart.fr/) - Frontend and backend tutorials in french.
 - [Scoth.io](https://scotch.io/) - Frontend and backend tutorials in english.
 - [Tutorialzine](https://tutorialzine.com/) - Frontend and backend tutorials in english.
-
+- [SymfonyCast](https://symfonycast.com/) - Tuto sur Symfony en anglais.
+- [Udemy](https://udemy.com/) - Tutos pas cher dans toutes les langues sur tout les languages.
+- [OpenClassRoom](https://openclassroom.com/) - Tutos gratuit en français
+  
 ## News
 - [Hacker News](https://news.ycombinator.com/) - A social news website focusing on computer science and entrepreneurship.
 - [Numerama](https://www.numerama.com/) - A French language news website that focuses on economic, legal, social, and technological issues.
