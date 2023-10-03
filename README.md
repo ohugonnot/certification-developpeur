@@ -13,6 +13,8 @@
 - Guide de l'accessibilité du contenu RGAA : https://design.numerique.gouv.fr/accessibilite-numerique/rgaa/
 - Validateur d'accessibilité du contenu : https://www.codeur.com/blog/outils-accessibilite-site/
 - Notions sur la sémentique de version : https://semver.org/lang/fr/
+- Methodologie de debug : https://code-garage.fr/blog/le-guide-pour-apprendre-a-debugger-du-code/
+- Exemple de dossiers projet: https://github.com/amerucci/Exemples-dossier-projet/tree/main
 
 ## Les questions en entretient et les tests techniques
 - [Symfony](https://waytolearnx.com/category/qcm-symfony) - Les questions souvent posées sur symfony
