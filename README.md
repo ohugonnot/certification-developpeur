@@ -10,6 +10,8 @@
 - Les régles RGPD du développeur : https://www.cnil.fr/fr/guide-rgpd-du-developpeur
 - Guide de test de sécurités : https://owasp.org/www-project-web-security-testing-guide/stable/
 - Guide de l'accessibilité du contenu WCAG : https://www.w3.org/WAI/standards-guidelines/wcag/fr
+- Guide de l'accessibilité du contenu RGAA : https://design.numerique.gouv.fr/accessibilite-numerique/rgaa/
+- Validateur d'accessibilité du contenu : https://www.codeur.com/blog/outils-accessibilite-site/
 - Notions sur la sémentique de version : https://semver.org/lang/fr/
 
 ## Les questions en entretient et les tests techniques
