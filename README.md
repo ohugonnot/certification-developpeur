@@ -2,6 +2,7 @@
 ![image](https://github.com/ohugonnot/certification-developpeur/assets/13014954/c1b4f3ce-6748-483b-909d-13e494025ae0)
 
 ### Liens utiles à connaitre pour préparer la soutenance
+- Pour les débutants le lexique et les définitions des termes techniques de bases [Lexique du développeur débutant](https://github.com/ohugonnot/certification-developpeur/blob/main/Lexique%20du%20d%C3%A9veloppeur%20d%C3%A9butant.pdf)
 - Figma pour le maquettage et les diagrammes d'activité : https://www.figma.com/fr/
 - Db Diagram pour les graphes UML : https://dbdiagram.io/
 - Validation W3C de vos pages web : https://validator.w3.org/
@@ -16,26 +17,24 @@
 - Methodologie de debug : https://code-garage.fr/blog/le-guide-pour-apprendre-a-debugger-du-code/
 - Exemple de dossiers projet: https://github.com/amerucci/Exemples-dossier-projet/tree/main
 
-## Les questions en entretient et les tests techniques
-- [Symfony](https://waytolearnx.com/category/qcm-symfony) - Les questions souvent posées sur symfony
-- [Back-end](https://gist.github.com/jpchateau/f822e00f1c6318046125) - Les questions souvent posées en back-end
-- [Front-End](https://www.collectiveray.com/fr/entretien-de-d%C3%A9veloppeur-front-end-questions-et-r%C3%A9ponses?expand_article=1) - Les questions souvent posées en front-end
-- [SkillValue](https://skillvalue.com/fr/quiz/) - SkillValue s'entrainer à passer des tests techniques
-- [CodingGame](https://www.codingame.com/work/fr/nos-offres/evaluer/product-tour/) - CodingGame voir à quoi ressemble les tests vu par le recruteur
-
-## Exercies
+## Exercies & Tutorials
 - [Codecademy](https://www.codecademy.com/) - Online interactive platform that offers free coding classes in 12 different programming languages.
 - [FreeCodeCamp](https://www.freecodecamp.org) - Learning platform in english wich provide many exercises, projects and certifications.
 - [W3S](https://www.w3schools.com/) - QCM - Exercices - Tutorial sur PHP, CSS, HTML, SQL, ect...
-
-## Tutorials
 - [Grafikart](https://www.grafikart.fr/) - Frontend and backend tutorials in french.
 - [Scoth.io](https://scotch.io/) - Frontend and backend tutorials in english.
 - [Tutorialzine](https://tutorialzine.com/) - Frontend and backend tutorials in english.
 - [SymfonyCast](https://symfonycast.com/) - Tuto sur Symfony en anglais.
 - [Udemy](https://udemy.com/) - Tutos pas cher dans toutes les langues sur tout les languages.
 - [OpenClassRoom](https://openclassroom.com/) - Tutos gratuit en français
-  
+
+## Les questions en entretient et les tests techniques
+- [Symfony](https://waytolearnx.com/category/qcm-symfony) - Les questions souvent posées sur symfony
+- [Back-end](https://gist.github.com/jpchateau/f822e00f1c6318046125) - Les questions souvent posées en back-end
+- [Front-End](https://www.collectiveray.com/fr/entretien-de-d%C3%A9veloppeur-front-end-questions-et-r%C3%A9ponses?expand_article=1) - Les questions souvent posées en front-end
+- [SkillValue](https://skillvalue.com/fr/quiz/) - SkillValue s'entrainer à passer des tests techniques
+- [CodingGame](https://www.codingame.com/work/fr/nos-offres/evaluer/product-tour/) - CodingGame s'entrainer à passer des tests techniques en résolvant des petits jeux ou des énigmes     
+
 ## News
 - [Hacker News](https://news.ycombinator.com/) - A social news website focusing on computer science and entrepreneurship.
 - [Numerama](https://www.numerama.com/) - A French language news website that focuses on economic, legal, social, and technological issues.
@@ -44,7 +43,7 @@
 - [Alan Drabczynski](http://alan-drabczynski.fr/) - Alan is an artistic director, he write and give advice about graphic and web design.
 - [Webdesign trends](http://www.webdesignertrends.com/) - A website that publish article based on UI and UX
 
-## Useful extensions
+## Environnement de travail : Useful extensions
 ### VSCode
 - [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) - Beautify javascript, JSON, CSS, Sass, and HTML.
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Spot missing brackets!
@@ -157,7 +156,7 @@
 
 ### Savoir-faire techniques, organisationnels relationnels
 - [ ] Structurer les pages selon les recommandations du __W3C__ pour le web et le web mobile
-- [ ] Coder les pages web statiques et adaptables, y compris pour le web mobile, avec un langage de balise et feuilles de style, en suivant les principes de qualité et dans un __style défensif__ en veillant à rendre l’application la plus résiliente possible
+- [ ] Coder les pages web statiques et adaptables, y compris pour le web mobile, avec un langage de balise et feuilles de style, en suivant les principes de qualité et dans un __style défensif__ en veillant à rendre l’application la plus résiliente possible     
 - [ ] Utiliser un framework de type adaptatif, y compris pour le web mobile (__React__, __Angular__, __VueJs__)
 - [ ] Rendre visible le site sur les moteurs de recherche avec les techniques de référencement naturel
 - [ ] Publier les pages web sur un serveur web
