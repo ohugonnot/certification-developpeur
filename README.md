@@ -6,6 +6,8 @@
 - Figma pour le maquettage et les diagrammes d'activité : https://www.figma.com/fr/
 - Db Diagram pour les graphes UML : https://dbdiagram.io/
 - Validation W3C de vos pages web : https://validator.w3.org/
+- Vérifier les performances de votre application : https://gtmetrix.com/
+- Vérifier le SEO de votre site web : https://sitechecker.pro/
 - Le guide des bonnes pratiques javascript : https://github.com/airbnb/javascript
 - Le guides des bonnes pratiques PHP - les PSR : https://www.php-fig.org/psr/
 - Les régles RGPD du développeur : https://www.cnil.fr/fr/guide-rgpd-du-developpeur
