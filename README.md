@@ -2,6 +2,7 @@
 ![image](https://github.com/ohugonnot/certification-developpeur/assets/13014954/c1b4f3ce-6748-483b-909d-13e494025ae0)
 
 ### Liens utiles à connaitre pour préparer la soutenance
+- Vous trouverez un lexique pour les termes techniques professionnelle [Lexique du développeur débutant](https://github.com/ohugonnot/certification-developpeur/blob/main/Lexique%20du%20d%C3%A9veloppeur%20d%C3%A9butant.pdf)
 - Figma pour le maquettage et les diagrammes d'activité : https://www.figma.com/fr/
 - Db Diagram pour les graphes UML : https://dbdiagram.io/
 - Validation W3C de vos pages web : https://validator.w3.org/
