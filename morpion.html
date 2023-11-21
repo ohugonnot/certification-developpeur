@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morpion Game</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        #board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 5px;
+        }
+
+        .cell {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cell:hover {
+            background-color: #ddd;
+        }
+
+        #status {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="board" >
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+</div>
+
+<p id="status"></p>
+
+<script>
+
+    // On déclare les variables utile dans le projet audessus
+    let joueur1 = 'X';
+    let joueur2 = 'O';
+    let jeuxEnCours = []
+    let whoIsGaming = joueur1;
+    let pStatus = document.getElementById('status');
+    pStatus.innerText = "Le jeux n'a pas commencé";
+    let cells = document.getElementsByClassName('cell');
+
+
+    // On déclare les fonctions dont on va avoir besoin, en mode vide
+    // juste pour avoir les bon nom de fonction et savoir ce qui va rentrer et sortir pour imaginer la logique
+    // ensuite on rempli petit à petits les fonctions dans l'ordre de la logique
+    for (let cell of cells) {
+       cell.addEventListener('click', function() {
+           let id = cell.dataset.index;
+           if(whoIsGaming === joueur1) {
+               jeuxEnCours[id] = 'X';
+               cell.innerHTML = 'X'
+               whoIsGaming = joueur2;
+           } else {
+               jeuxEnCours[id] = 'O';
+               cell.innerHTML = 'O'
+               whoIsGaming = joueur1;
+           }
+           Win();
+       })
+    }
+
+    function Win() {
+        let isOver = false;
+
+        // ce sont toutes les manières de gagnées
+        let conditionVictoires = [
+            [0,1,2], [3,4,5], [6,7,8], // ligne
+            [0,3,6], [1,4,7], [2,5,8], // colonnne
+            [0,4,8], [2,4,6]  // diagonales
+        ]
+
+        // Je regarde dans toute les manières de gagner
+        for (let victoire of conditionVictoires) {
+            let testIsVictoire = [];
+            // Je vais chercher dans mon jeux en cours la valeurs en X ou 0 de chaque condition de gagné
+            for (let coord of victoire) {
+                testIsVictoire.push(jeuxEnCours[coord]);
+            }
+            // Si j'ai la meme valeurs partout dans toutes les positions de la condition de victoire
+            // c'est que c'est une victoire et que le jeux est terminé
+            let isViccoire = testIsVictoire.every((val) => val === testIsVictoire[0])
+            if(isViccoire) {
+                // Le jeux est terminé une condition de victoire est remplie
+
+                // Je teste de quoi la condition de victoire est rempli
+                // Si c'est de X c'est le joueur 1 qui a gagné
+                if(testIsVictoire[0] === "X") {
+                    isOver = true;
+                    pStatus.innerText = "Le jeux est terminé joueur 1 à gagné";
+                }
+                // si c'est de 0 alors c'est le joueur 2 qui a gagné
+                if(testIsVictoire[0] === "O") {
+                    isOver = true;
+                    pStatus.innerText = "Le jeux est terminé joueur 2 à gagné";
+                }
+            }
+        }
+        if(jeuxEnCours.length === 9 && isOver === false) {
+            pStatus.innerText = "Le jeux est un nul personne n'a gagné";
+        }
+
+        if(jeuxEnCours.length >=1 && isOver === false) {
+            pStatus.innerText = "Le jest lancé";
+        }
+
+    }
+
+    // C'est toujours ce pattern de résolution
+    let recherche = document.getElementById("recherche");
+    let listLiens = document.getElementById("listdeLiens")
+=
+    function rechercheDansListLiens(recherche) {
+        return ["Lien1","Lien2","Lien3"]
+    }
+</script>
+
+</body>
+</html>
