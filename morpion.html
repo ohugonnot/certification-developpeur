@@ -58,7 +58,7 @@
     <div class="cell" data-index="8"></div>
 </div>
 
-<p id="status">C'est au joueur 1 de jouer</p>
+<p id="status">C'est a X de jouer</p>
 <button onclick='restart()' id="restart" style="display: none">Relancer une partie</button>
 
 <script>
@@ -69,6 +69,12 @@
     let jeuxEnCours = []
     let isOver = false;
     let whoIsGaming = joueur1;
+    let conditionVictoires = [
+        [0,1,2], [3,4,5], [6,7,8], // ligne
+        [0,3,6], [1,4,7], [2,5,8], // colonnne
+        [0,4,8], [2,4,6]  // diagonales
+    ]
+
     let pStatus = document.getElementById('status');
     let cells = document.getElementsByClassName('cell');
     let restartButton = document.getElementById('restart');
@@ -78,13 +84,13 @@
     // ensuite on rempli petit à petits les fonctions dans l'ordre de la logique
     for (let cell of cells) {
        cell.addEventListener('click', function() {
-
            // Si le jeux est fini on annule l'evenement en sortant directement
            if(isOver) {
               return
            }
+           // Je vais chercher l'index de la cellule que je viens de cliquer
            let id = cell.dataset.index;
-           // S'il existe déjà une valeur dans la div cliquer on sort de l'evenement on ne change rien
+           // S'il existe déjà une valeur dans la div cliqué on sort de l'evenement on ne change rien
            if(jeuxEnCours[id]) {
                return
            }
@@ -97,22 +103,15 @@
                cell.innerHTML = 'O'
                whoIsGaming = joueur1;
            }
-           Win();
+           checkWin();
        })
     }
 
-    function Win() {
-        // ce sont toutes les manières de gagnées
-        let conditionVictoires = [
-            [0,1,2], [3,4,5], [6,7,8], // ligne
-            [0,3,6], [1,4,7], [2,5,8], // colonnne
-            [0,4,8], [2,4,6]  // diagonales
-        ]
-
+    function checkWin() {
         // Je regarde dans toute les manières de gagner
         for (let victoire of conditionVictoires) {
             let testIsVictoire = [];
-            // Je vais chercher dans mon jeux en cours la valeurs en X ou 0 de chaque condition de gagné
+            // Je vais chercher dans mon jeux en cours la valeurs en X ou 0 de chaque condition de victoire ou en non rempli
             for (let coord of victoire) {
                 testIsVictoire.push(jeuxEnCours[coord]);
             }
@@ -120,8 +119,6 @@
             // c'est que c'est une victoire et que le jeux est terminé
             let isViccoire = testIsVictoire.every((val) => val === testIsVictoire[0])
             if(isViccoire) {
-                // Le jeux est terminé une condition de victoire est remplie
-
                 // Je teste de quoi la condition de victoire est rempli
                 // Si c'est de X c'est le joueur 1 qui a gagné
                 if(testIsVictoire[0] === "X") {
@@ -140,12 +137,11 @@
             pStatus.innerText = "Le jeux est un nul personne n'a gagné";
             isOver = true;
         }
-        console.log(isOver)
 
         if(isOver) {
             restartButton.style.display = "block"
         }  else {
-            pStatus.innerText = `C'est au joueur ${whoIsGaming} de jouer`;
+            pStatus.innerText = `C'est a ${whoIsGaming} de jouer`;
             restartButton.style.display = "none"
         }
     }
@@ -158,7 +154,7 @@
         for (let cell of cells) {
             cell.innerText = ""
         }
-        pStatus.innerText = `C'est au joueur ${joueur1} de jouer`;
+        pStatus.innerText = `C'est a ${joueur1} de jouer`;
     }
 </script>
 
