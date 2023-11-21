@@ -58,7 +58,8 @@
     <div class="cell" data-index="8"></div>
 </div>
 
-<p id="status"></p>
+<p id="status">C'est au joueur 1 de jouer</p>
+<button onclick='restart()' id="restart" style="display: none">Relancer une partie</button>
 
 <script>
 
@@ -66,18 +67,27 @@
     let joueur1 = 'X';
     let joueur2 = 'O';
     let jeuxEnCours = []
+    let isOver = false;
     let whoIsGaming = joueur1;
     let pStatus = document.getElementById('status');
-    pStatus.innerText = "Le jeux n'a pas commencé";
     let cells = document.getElementsByClassName('cell');
-
+    let restartButton = document.getElementById('restart');
 
     // On déclare les fonctions dont on va avoir besoin, en mode vide
-    // juste pour avoir les bon nom de fonction et savoir ce qui va rentrer et sortir pour imaginer la logique
+    // juste pour avoir les bons nom de fonction et savoir ce qui va rentrer et sortir pour imaginer la logique
     // ensuite on rempli petit à petits les fonctions dans l'ordre de la logique
     for (let cell of cells) {
        cell.addEventListener('click', function() {
+
+           // Si le jeux est fini on annule l'evenement en sortant directement
+           if(isOver) {
+              return
+           }
            let id = cell.dataset.index;
+           // S'il existe déjà une valeur dans la div cliquer on sort de l'evenement on ne change rien
+           if(jeuxEnCours[id]) {
+               return
+           }
            if(whoIsGaming === joueur1) {
                jeuxEnCours[id] = 'X';
                cell.innerHTML = 'X'
@@ -92,8 +102,6 @@
     }
 
     function Win() {
-        let isOver = false;
-
         // ce sont toutes les manières de gagnées
         let conditionVictoires = [
             [0,1,2], [3,4,5], [6,7,8], // ligne
@@ -118,31 +126,39 @@
                 // Si c'est de X c'est le joueur 1 qui a gagné
                 if(testIsVictoire[0] === "X") {
                     isOver = true;
-                    pStatus.innerText = "Le jeux est terminé joueur 1 à gagné";
+                    pStatus.innerText = `Le jeux est terminé ${joueur1} à gagné`;
                 }
                 // si c'est de 0 alors c'est le joueur 2 qui a gagné
                 if(testIsVictoire[0] === "O") {
                     isOver = true;
-                    pStatus.innerText = "Le jeux est terminé joueur 2 à gagné";
+                    pStatus.innerText = `Le jeux est terminé ${joueur2} à gagné`;
                 }
             }
         }
-        if(jeuxEnCours.length === 9 && isOver === false) {
+
+        if(jeuxEnCours.filter(Boolean).length === 9 && isOver === false) {
             pStatus.innerText = "Le jeux est un nul personne n'a gagné";
+            isOver = true;
         }
+        console.log(isOver)
 
-        if(jeuxEnCours.length >=1 && isOver === false) {
-            pStatus.innerText = "Le jest lancé";
+        if(isOver) {
+            restartButton.style.display = "block"
+        }  else {
+            pStatus.innerText = `C'est au joueur ${whoIsGaming} de jouer`;
+            restartButton.style.display = "none"
         }
-
     }
 
-    // C'est toujours ce pattern de résolution
-    let recherche = document.getElementById("recherche");
-    let listLiens = document.getElementById("listdeLiens")
-=
-    function rechercheDansListLiens(recherche) {
-        return ["Lien1","Lien2","Lien3"]
+    // au restart on remet tout a zero
+    function restart() {
+        jeuxEnCours = []
+        isOver = false;
+        whoIsGaming = joueur1;
+        for (let cell of cells) {
+            cell.innerText = ""
+        }
+        pStatus.innerText = `C'est au joueur ${joueur1} de jouer`;
     }
 </script>
 
